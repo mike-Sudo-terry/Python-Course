@@ -1,0 +1,32 @@
+x = float(input("Enter value for x "))
+#first level
+first_level = 1.0 / x
+#second level
+second_level = first_level + x
+#third level
+third_level = 1.0 / second_level 
+# forth level
+forth_level = third_level + x
+# fifth level
+fifth_level = 1.0 / forth_level
+#sixth level
+sixth_level = fifth_level = x 
+y = 1.0 / sixth_level
+
+x = float(input("Enter value for x: "))
+
+# First level
+first_level = 1.0 / x
+# Second level
+second_level = x + first_level
+# Third level
+third_level = 1.0 / second_level
+# Fourth level
+fourth_level = x + third_level
+# Fifth level
+fifth_level = 1.0 / fourth_level
+# Sixth level
+sixth_level = x + fifth_level
+# Final result
+y = 1.0 / sixth_level
+print("y =", y)
