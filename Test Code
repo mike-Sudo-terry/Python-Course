@@ -1,0 +1,14 @@
+"""
+This
+is a 
+page 
+of
+tests
+"""
+#This is a first try at inputs
+pin = input("tell me your pin")
+print("now i have your code" , pin)
+#now i have tried to use type casting
+print("This is your square root table")
+number = float(input("What number do you want an answer to? "))
+print("This is your answer:", number**0.5)
