@@ -1,0 +1,10 @@
+# The first number choice
+a = float(input("First number please "))
+# second number choice
+b = float(input(" second number please "))
+
+print(a + b) #Addition
+print(a - b) # Subtraction
+print(a * b) #Times
+print( a / b) # Devide
+print("\nThat's all, folks!")
