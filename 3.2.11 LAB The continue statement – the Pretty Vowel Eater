@@ -1,0 +1,10 @@
+word = input("choose your word:")
+user_word = word.upper()
+word_without_vowels = ""
+
+for letter in user_word:
+    if letter in "A,E,I,O,U":
+        continue
+    else:
+        word_without_vowels += letter
+print (word_without_vowels)
