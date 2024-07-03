@@ -1,0 +1,7 @@
+i = 0
+while i < 1:
+    guess = input ("guess:") 
+    if guess == "chupacabra":
+        break
+
+print("You've successfully left the loop.")
