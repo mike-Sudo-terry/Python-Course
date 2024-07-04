@@ -1,15 +1,16 @@
-result = 1
+
+result = 0
 height = 1
 blocks_aval = int(input("Enter the number of blocks: "))
 blocks_req = 0
 while blocks_aval >= blocks_req:
     blocks_req = result + height
-    result = result *2 +1
+    result = blocks_req
     height +=1
-    
+
+
 #
 # Write your code here.
 #	
 
-print("The height of the pyramid:", height-1)
-
+print("The height of the pyramid:", height-2)
