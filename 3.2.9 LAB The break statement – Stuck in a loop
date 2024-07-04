@@ -5,3 +5,12 @@ while i < 1:
         break
 
 print("You've successfully left the loop.")
+
+
+guess = ""
+while True:# i have used this to make the loop
+    guess = input ("guess:") #the loop will run until it is broken
+    if guess == "chupacabra": # this statement will break the loop
+        break
+
+print("You've successfully left the loop.")
