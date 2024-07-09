@@ -1,0 +1,20 @@
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    else:
+        return False
+
+def days_in_month(year, month):
+    if month < 1 or month > 12:
+        return None  # Invalid month
+    if year < 1:
+        return None  # Invalid year
+    
+    # List with the number of days in each month
+    days_in_months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    
+    # Adjust for leap years
+    if month == 2 and is_leap_year(year):
+        return 29
+    
+    return days_in_months[month - 1]
